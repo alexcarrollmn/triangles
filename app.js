@@ -23,7 +23,7 @@ if(tri.type !== null && typeof tri.type === 'object'){
 //english is fun
 let article = `an`;
 if(tri.type === 'scalene'){
-    article = 'a';
+    article = `a`;
 }
 
 //and finally, if there is no error, give a response
