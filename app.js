@@ -1,6 +1,6 @@
 const comm = require("commander");
 const chalk = require("chalk");
-const Triangle = require("./triangle.js");
+const Triangle = require("./Triangle.js");
 
 
 //deal with arguments being passed.
