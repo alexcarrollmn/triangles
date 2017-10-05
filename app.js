@@ -20,13 +20,13 @@ if(tri.type !== null && typeof tri.type === 'object'){
     }
 }
 
+//and finally, if there is no error, give a response
 //english is fun
 let article = `an`;
 if(tri.type === 'scalene'){
     article = `a`;
 }
 
-//and finally, if there is no error, give a response
 if ( !tri.type ){
     return console.log(`${chalk.bold.green("Answer: ")} ${tri.input} ${chalk.red("does not")} make a triangle.
     `)
