@@ -20,14 +20,14 @@ class Triangle {
 
     determineType(){
         if ( this.triangle[0] === this.triangle[1] && this.triangle[1] === this.triangle[2] ){
-            return "equilateral"
+            return "equilateral";
         }
         if ( (this.triangle[0] === this.triangle[1] || this.triangle[0] == this.triangle[2] || this.triangle[1] === this.triangle[2]) 
             && ( (this.triangle[0] + this.triangle[1]) > this.triangle[2] ) ){
-            return "isosceles"
+            return "isosceles";
         }
         if ( (this.triangle[0] + this.triangle[1]) > this.triangle[2] ){
-            return "scalene"
+            return "scalene";
         }
         return false;
     }

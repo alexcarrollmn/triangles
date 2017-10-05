@@ -26,10 +26,9 @@ let article = `an`;
 if(tri.type === 'scalene'){
     article = `a`;
 }
-
 if ( !tri.type ){
     return console.log(`${chalk.bold.green("Answer: ")} ${tri.input} ${chalk.red("does not")} make a triangle.
-    `)
+    `);
 }
 return console.log(`${chalk.bold.green("Answer: ")} ${tri.input} makes ${article} ${chalk.green(tri.type)} triangle.
 `);
