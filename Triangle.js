@@ -14,7 +14,7 @@ class Triangle {
      * Get the type of triangle, handle errors in input
      * 
      * @readonly
-     * @returns {string} type of triangle or error
+     * @returns {*} type of triangle (string) or error (object)
      * @memberOf Triangle
      */
     get type(){
@@ -33,7 +33,7 @@ class Triangle {
     /**
      * determins the type of triangle.
      * 
-     * @returns {string} type
+     * @returns {*} type of triangle (string), or false (bool)
      * 
      * @memberOf Triangle
      */
